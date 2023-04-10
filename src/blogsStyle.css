@@ -5,3 +5,34 @@
 main > figure > figcaption {
     font-size: 4rem;
 }
+
+.blogPhoto {
+    width: 40%;
+    padding-left: 2rem;
+}
+
+main > section > article {
+    padding: 3rem 0;
+    display: flex;
+    /* margin-top: 2rem;
+    position: relative; */
+}
+
+article > p, article > h2, article > h4 {
+    padding: 0.5rem 0 0.5rem 1rem;
+}
+
+main > section {
+    width: 100%;
+}
+
+/* main > section > article:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
