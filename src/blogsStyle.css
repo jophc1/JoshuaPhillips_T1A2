@@ -1,0 +1,7 @@
+.aboutSections {
+    padding: 1rem;
+}
+
+main > figure > figcaption {
+    font-size: 4rem;
+}

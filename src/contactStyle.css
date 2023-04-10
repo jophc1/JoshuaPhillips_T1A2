@@ -1,0 +1,70 @@
+.aboutSections {
+    padding: 1rem;
+}
+
+main > figure > figcaption {
+    font-size: 4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+#FT, #GR, #LGR {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.contactSize {
+    padding: 1rem;
+    width: 7rem;
+}
+
+.contactHighlight:hover {
+    transform: scale(1.25);
+}
+
+.resumeBox {
+    border: 3px solid black;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 1rem;
+    color: rgb(85,26,139);
+    width: fit-content;
+}
+
+
+@media only screen and (min-width: 550px) {
+    #FT, #GR {
+        flex-direction: row;
+    }
+
+    #EFT {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactSize {
+        padding: 1rem 2rem;
+        width: 10rem;
+    }
+}
+
+@media only screen and (min-width: 951px) {
+    #EFT, #LGR {
+        flex-direction: row;
+        padding-top: 3rem; 
+    }
+
+    .contactSize {
+        width: 12rem;
+    }
+
+    .resumeBox {
+        font-size: 1.5rem;
+        color: rgb(85,26,139);
+        padding: 2rem 0;
+    }
+
+}

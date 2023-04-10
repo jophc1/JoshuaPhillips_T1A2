@@ -1,0 +1,61 @@
+
+.aboutSections {
+    padding: 1rem;
+}
+
+main > figure > figcaption {
+    font-size: 3rem;
+}
+
+.mainText {
+    font-size: 1.25rem;
+}
+
+main > div > section > article {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (min-width: 550px) {
+    main > div > section {
+        display: flex;
+        justify-content: center;
+    }
+
+   main > div > section > article {
+    flex-direction: column;
+    align-items: center;
+    flex: 2;
+   } 
+
+   ul {
+    padding: 0.5rem;
+   }
+
+   main > div {
+    padding-top: 3rem;
+   }
+
+}
+
+@media only screen and (min-width: 951px) {
+    main > div {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    main > div > section > article {
+    display: flex;
+    justify-content: flex-start;
+    }
+
+    main > div > article {
+        flex: 5;
+    }
+
+    main > div > section {
+        flex: 8;
+    }
+
+}

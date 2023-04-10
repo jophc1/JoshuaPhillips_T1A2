@@ -1,0 +1,46 @@
+/* Main components */
+
+main > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > figure > figcaption {
+    font-size: 1.5rem;
+}
+
+    /* Main components - picture of self portrait */
+#selfPortrait {
+    width: 40%;
+    max-width: 40%;
+    min-width: 20%;
+    border-radius: 50%;
+}
+
+/* Index page device transitions */
+
+
+/* Desktop computers min 951 px onwards */
+@media only screen and (min-width: 951px) {
+
+    /* Desktop Main components modifiers */
+    .mainText {
+   font-size: 1rem; 
+    }
+
+    main > section {
+        flex-direction: row-reverse;
+    }
+
+    #selfPortrait {
+        width: 25%;
+        padding: 1rem;
+    }
+
+    header > a {
+        width: 50%;
+        padding-bottom: 3rem;
+    }
+
+}
