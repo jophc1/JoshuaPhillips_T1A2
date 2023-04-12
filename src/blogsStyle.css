@@ -57,7 +57,11 @@ article > h2, article > h4, article > p {
 
 article > h2 > a {
     text-decoration: none;
-    
+}
+
+article > h4 > a {
+    padding-left: 0.2rem;
+    font-size: 0.8rem;
 }
 
 article > h2 {
@@ -76,7 +80,7 @@ main > section > article {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
         width: 100%;
     }
 
@@ -85,7 +89,7 @@ main > section > article {
     }
 
     main > section > article {
-    margin: 2rem 0.5rem 0.5rem;
+    margin: 1.5rem 0;
     }
 
     .blogPhoto {
@@ -95,15 +99,27 @@ main > section > article {
 }
 
 @media only screen and (min-width: 951px) {
+main > section {
+        justify-content: center;
+    }
+
     main > section > article:not(:nth-of-type(4)), main > section > article:not(:nth-of-type(5)) {
         width: 30%;
     }
 
     main > section > article {
-    margin: 2rem 0.5rem 0.5rem;
+    margin: 1rem 0.5rem 0.5rem;
     }
 
     .blogPhoto {
     height: 8vw;
+    }
+
+    article > h4 {
+    font-size: 0.8rem;
+    }
+
+    article > h4 > a {
+    font-size: 0.6rem;
     }
 }
