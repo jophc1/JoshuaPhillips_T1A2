@@ -1,6 +1,6 @@
-
+/* Desktop screen modifers - small */
 @media only screen and (min-width: 900px) {
-
+    /* Section components */
     main > section > div > div > img {
     height: 8vw;
     float: left;
@@ -9,9 +9,9 @@
     } 
 
 }
-
+/* Desktop scfeen modifiers - large */
 @media only screen and (min-width: 1150px) {
-    
+    /* Section components */
     main > section > div > div > img {
     height: 8vw;
     margin-left: 3rem;

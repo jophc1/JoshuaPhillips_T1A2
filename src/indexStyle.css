@@ -1,4 +1,4 @@
-/* Main components */
+/* Section components */
 
 main > section > section {
   display: flex;
@@ -10,7 +10,7 @@ main > section > figure > figcaption {
   font-size: 1.5rem;
 }
 
-/* Main components - picture of self portrait */
+/* Section components - picture of self portrait */
 #selfPortrait {
   width: 40%;
   max-width: 40%;
@@ -18,11 +18,9 @@ main > section > figure > figcaption {
   border-radius: 50%;
 }
 
-/* Index page device transitions */
-
-/* Desktop computers min 951 px onwards */
+/* Desktop screen modifiers */
 @media only screen and (min-width: 951px) {
-  /* Desktop Main components modifiers */
+  /* Section components */
   .mainText {
     font-size: 1rem;
   }

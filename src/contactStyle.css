@@ -1,7 +1,4 @@
-.aboutSections {
-  padding: 1rem;
-}
-
+/* Section components */
 main > section > figure > figcaption {
   font-size: 4rem;
 }
@@ -10,17 +7,13 @@ a {
   text-decoration: none;
 }
 
-#FT,
-#GR,
-#LGR {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .contactSize {
   padding: 1rem;
   width: 7rem;
+}
+
+.aboutSections {
+  padding: 1rem;
 }
 
 .contactHighlight:hover {
@@ -34,8 +27,17 @@ a {
   color: rgb(85, 26, 139);
   width: fit-content;
 }
-
+/* Contact icon modifier */
+#FT,
+#GR,
+#LGR {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Tablet screen modifiers */
 @media only screen and (min-width: 550px) {
+  /* Section components */
   #FT,
   #GR {
     flex-direction: row;
@@ -52,8 +54,9 @@ a {
     width: 10rem;
   }
 }
-
+/* Desktop screen modifiers */
 @media only screen and (min-width: 951px) {
+  /* Section components */
   #EFT,
   #LGR {
     flex-direction: row;

@@ -16,42 +16,6 @@ body > main {
   padding-bottom: 5rem;
 }
 
-/* Main components */
-main > section {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
-  margin: 1rem 0;
-}
-
-/* Main components - page title with background image */
-#titleRetro {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 25vw;
-  background: rebeccapurple url(images/pageTitle.jpg) no-repeat;
-  background-position: 50% 50%;
-  background-size: 100%;
-  filter: grayscale(70%);
-  border-radius: 10px;
-  transition: 1s;
-}
-
-#titleRetro:hover {
-  filter: grayscale(0%);
-}
-
-/* Main component - text styling */
-.mainText {
-  padding: 1rem;
-  font-size: 1.5rem;
-  font-family: "Cabin", sans-serif;
-  color: rgb(85, 26, 139);
-}
-
 /* Header components */
 header {
   display: flex;
@@ -98,6 +62,42 @@ header > nav {
   border: 5px dashed rgb(0, 132, 255);
 }
 
+/* Section components */
+main > section {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+/* Section components - page title with background image */
+#titleRetro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 25vw;
+  background: rebeccapurple url(images/pageTitle.jpg) no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+  filter: grayscale(70%);
+  border-radius: 10px;
+  transition: 1s;
+}
+
+#titleRetro:hover {
+  filter: grayscale(0%);
+}
+
+/* Section component - text styling */
+.mainText {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: "Cabin", sans-serif;
+  color: rgb(85, 26, 139);
+}
+
 /* Footer components */
 footer {
   display: flex;
@@ -112,16 +112,16 @@ footer {
 /* Text modifiers */
 .retroText {
   background: linear-gradient(
-    hsl(239, 50%, 30%) 15%,
-    hsl(239, 50%, 40%) 25%,
-    hsl(200, 60%, 50%) 35%,
-    hsl(100, 70%, 80%) 45%,
-    hsl(60, 100%, 98%) 50%,
-    hsl(240, 0%, 0%) 52%,
-    hsl(240, 10%, 10%) 60%,
-    hsl(240, 50%, 30%) 70%,
-    hsl(220, 70%, 60%) 80%,
-    hsl(212, 92%, 76%) 85%
+    hsl(238, 58%, 35%) 15%,
+    hsl(239, 49%, 47%) 25%,
+    hsl(200, 64%, 53%) 35%,
+    hsl(100, 54%, 70%) 45%,
+    hsl(60, 88%, 71%) 50%,
+    hsl(0, 80%, 10%) 52%,
+    hsl(240, 48%, 16%) 60%,
+    hsl(240, 66%, 24%) 70%,
+    hsl(220, 86%, 52%) 80%,
+    hsl(212, 84%, 62%) 85%
   );
   color: transparent;
   background-clip: text;
@@ -146,14 +146,14 @@ footer {
   color: pink;
 }
 
-/* Tablet sizes 550px to 950px */
+/* Tablet screen sizes */
 @media only screen and (min-width: 550px) {
-  /* Tablet body modifiers */
+  /* Main modifiers */
   body > main {
     display: flex;
   }
 
-  /* Tablet header component modifiers */
+  /* Header component */
   header {
     flex-direction: column;
     padding: 1rem 1rem;
@@ -182,7 +182,7 @@ footer {
     justify-content: center;
   }
 
-  /* Tablet Main components modifiers */
+  /* Section components */
   #titleSize {
     font-size: 2rem;
   }
@@ -204,7 +204,9 @@ footer {
   }
 }
 
+/* Desktop screen modifiers */
 @media only screen and (min-width: 951px) {
+  /* Section components */
   #titleRetro {
     height: 20vw;
   }
