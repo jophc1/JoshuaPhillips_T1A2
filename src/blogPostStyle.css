@@ -1,0 +1,95 @@
+main > section > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+main > section > div > div > img {
+    height: 30vw;
+    object-fit: cover;
+}
+
+main > section > div > article {
+    margin: 1rem;
+    text-align: center;
+}
+
+main > section > div > article > * {
+    padding: 0.5rem 0;
+}
+
+article > h2 {
+    font-size: 1.5rem;
+    font-family: 'Cabin', sans-serif;
+    color: rgb(85,26,139);
+}
+
+h4 > a {
+    margin-left: 0.5rem;
+}
+
+article > h4, article > p {
+    font-family: 'Cabin', sans-serif;
+}
+
+article > h4 > a {
+    font-size: 0.8rem;
+}
+
+@media only screen and (min-width: 450px) {
+    article > h2 {
+        font-size: 1.8rem;
+    }
+    section > figure > figcaption {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    main > section > div > div > img {
+    height: 20vw;
+    } 
+    article > h2 {
+        font-size: 1.7rem;
+    } 
+    article p {
+        font-size: 1.2rem;
+    } 
+}
+
+@media only screen and (min-width: 900px) {
+    section > div > article * {
+        text-align: left;
+    }
+   
+    main > section > div {
+    display: block;
+    }
+
+    article > h2 {
+        font-size: 1.6rem;
+    } 
+    article p {
+        font-size: 1.2rem;
+    } 
+}
+
+@media only screen and (min-width: 1150px) {
+    
+    
+    article > h2 {
+        font-size: 2rem;
+    } 
+    main > section > article {
+         padding: 0 2rem;
+    }
+    
+}
+
+@media only screen and (min-width: 1350px) {
+    article > h2 {
+        font-size: 2.5rem;
+    } 
+}
