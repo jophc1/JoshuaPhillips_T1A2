@@ -1,21 +1,17 @@
 @media only screen and (min-width: 900px) {
-
-    main > section > div > div > img {
+  main > section > div > div > img {
     height: 8vw;
     float: left;
     margin-left: 2rem;
     margin-right: 2rem;
-    } 
-
+  }
 }
 
 @media only screen and (min-width: 1150px) {
-    
-    main > section > div > div > img {
+  main > section > div > div > img {
     height: 8vw;
     margin-top: 1rem;
     margin-left: 2rem;
     margin-bottom: 1rem;
-    } 
-    
+  }
 }

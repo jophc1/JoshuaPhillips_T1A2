@@ -1,3 +1,4 @@
+/* Section components */
 main > section > div {
     display: flex;
     flex-direction: column;
