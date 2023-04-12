@@ -3,7 +3,7 @@
     padding: 1rem;
 }
 
-main > figure > figcaption {
+main > section > figure > figcaption {
     font-size: 3rem;
 }
 
@@ -11,18 +11,18 @@ main > figure > figcaption {
     font-size: 1.25rem;
 }
 
-main > div > section > article {
+main > section > div > section > article {
     display: flex;
     justify-content: space-around;
 }
 
 @media only screen and (min-width: 550px) {
-    main > div > section {
+    main > section > div > section {
         display: flex;
         justify-content: center;
     }
 
-   main > div > section > article {
+   main > section > div > section > article {
     flex-direction: column;
     align-items: center;
     flex: 2;
@@ -32,29 +32,29 @@ main > div > section > article {
     padding: 0.5rem;
    }
 
-   main > div {
+   main > section > div {
     padding-top: 3rem;
    }
 
 }
 
 @media only screen and (min-width: 951px) {
-    main > div {
+    main > section > div {
         display: flex;
         justify-content: center;
         align-items: flex-start;
     }
 
-    main > div > section > article {
+    main > section > div > section > article {
     display: flex;
     justify-content: flex-start;
     }
 
-    main > div > article {
+    main > section > div > article {
         flex: 5;
     }
 
-    main > div > section {
+    main > section > div > section {
         flex: 8;
     }
 
