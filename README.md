@@ -24,7 +24,7 @@ As a large majority of people use a mobile device to access a website, the main 
 My webpages were created with a basic colour scheme to prevent the user from being overwhelmed, and apart for the text used for the navigation links and page title, the text was selected to emphasize on readability rather than style.  
 
 The porfolio contains four main sections:
-* Home: This is the default webpage for the portfolio and was a basic self portrait and welcome text.
+* Home: This is the default webpage for the portfolio and has a basic self portrait and welcome text.
 * About me: Contains more personal information about me, including hobbies, interests and programming skills.
 * Blogs: Has links to five different blog posts which contain a brief summary of what the blog is about.
 * Contact: Has interactive icons that guides the user to social media and professional accounts. This also contains a pdf of my Resume.
