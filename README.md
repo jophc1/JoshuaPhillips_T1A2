@@ -4,7 +4,7 @@
 
 ### [Portfolio Website](https://josh-phillips-portfolio.vercel.app/)
 ### [Git Hub Repository](https://github.com/jophc1/JoshuaPhillips_T1A2)
-### [Slide Presentation Youtube](needs link here)
+### [Slide Presentation Youtube](https://youtu.be/pRoZAfK1uko)
 
 ***
 
