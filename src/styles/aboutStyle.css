@@ -1,10 +1,10 @@
 
-
-/* Section components */
+/* Page title component */
 main > section > figure > figcaption {
     font-size: 3rem;
 }
 
+/* Page content component */
 main > section > div > section > article {
     display: flex;
     justify-content: space-around;
@@ -14,14 +14,13 @@ main > section > div > section > article {
     padding: 1rem;
 }
 
-/* Font modifiers */
 .mainText {
     font-size: 1.25rem;
 }
 
 /* Tablet screens modifiers */
 @media only screen and (min-width: 550px) {
-    /* Section components */
+    /* Page content component */
     main > section > div > section {
         display: flex;
         justify-content: center;
@@ -45,7 +44,7 @@ main > section > div > section > article {
 
 /* Desktop screen modifiers */
 @media only screen and (min-width: 951px) {
-    /* Section components */
+    /* Page content component */
     main > section > div {
         display: flex;
         justify-content: center;

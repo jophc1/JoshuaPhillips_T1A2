@@ -1,6 +1,6 @@
 /* Desktop modifers - medium screen */
 @media only screen and (min-width: 900px) {
-  /* Section components */
+  /* Blog post component */
   main > section > div > div > img {
     height: 8vw;
     float: left;
@@ -10,7 +10,7 @@
 }
 /* Desktop modifiers - Large screen */
 @media only screen and (min-width: 1150px) {
-  /* Section components */
+  /* Blog post component */
   main > section > div > div > img {
     height: 8vw;
     margin-top: 1rem;

@@ -71,7 +71,14 @@ main > section {
   margin: 1rem 0;
 }
 
-/* Section components - page title with background image */
+.mainText {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: "Cabin", sans-serif;
+  color: rgb(85, 26, 139);
+}
+
+/* page title component */
 #titleRetro {
   display: flex;
   justify-content: center;
@@ -88,14 +95,6 @@ main > section {
 
 #titleRetro:hover {
   filter: grayscale(0%);
-}
-
-/* Section component - text styling */
-.mainText {
-  padding: 1rem;
-  font-size: 1.5rem;
-  font-family: "Cabin", sans-serif;
-  color: rgb(85, 26, 139);
 }
 
 /* Footer components */
@@ -183,17 +182,14 @@ footer {
   }
 
   /* Section components */
-  #titleSize {
-    font-size: 2rem;
-  }
-
   main > section {
     flex: 3;
   }
 
-  .mainText {
-    font-size: 1.25rem;
-  }
+  /* Page title component */
+  #titleSize {
+      font-size: 2rem;
+    }
 
   #titleRetro {
     height: 15vw;
@@ -202,11 +198,16 @@ footer {
   #titleSize {
     font-size: 2.2rem;
   }
+  
+  /* Page content component */
+  .mainText {
+    font-size: 1.25rem;
+  }
 }
 
 /* Desktop screen modifiers */
 @media only screen and (min-width: 951px) {
-  /* Section components */
+  /* Page title component */
   #titleRetro {
     height: 10vw;
   }
