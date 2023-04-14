@@ -12,8 +12,8 @@ main > section > figure > figcaption {
 
 /* Section components - picture of self portrait */
 #selfPortrait {
-  width: 40%;
-  max-width: 40%;
+  width: 30%;
+  max-width: 30%;
   min-width: 20%;
   border-radius: 50%;
 }
